@@ -16,9 +16,16 @@
 	border: 10px solid #CCC;
 }
 
+.todo-item {
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
 @media (max-width: 767px) {
 	.todo-item img {
 		width: 80%;
-		max-width: 300px;
+		max-width: 400px;
 	}
 }
