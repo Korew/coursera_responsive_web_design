@@ -1,0 +1,24 @@
+.done {
+	color: #5cb85c;
+}
+
+.in-progress {
+	color: #5bc0de;
+}
+
+.cancelled {
+	color: #d9534f;
+}
+
+.todo-item img {
+	width: 80%;
+	margin: 10px auto;
+	border: 10px solid #CCC;
+}
+
+@media (max-width: 767px) {
+	.todo-item img {
+		width: 80%;
+		max-width: 300px;
+	}
+}
