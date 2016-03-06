@@ -48,7 +48,7 @@ footer a:hover {
 }
 
 .task-description p {
-	width: 80%;
+	margin-right: 115px; 
 }
 
 .task-description img {
@@ -71,6 +71,15 @@ footer a:hover {
 	border: 5px solid #ddd;
 	min-width: 300px;
 	margin-bottom: 30px;
+}
+
+@media (max-width: 450px) {
+	.col-xxs-5 {
+		width: 41.66%;
+	}
+	.col-xxs-7 {
+		width: 58.33%;
+	}
 }
 
 @media (max-width: 767px) {
